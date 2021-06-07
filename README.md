@@ -17,10 +17,11 @@ Telegram bot who can do a lot of things, such as:
 Working process separated into Marathons (1 month) and Sprints (1 week).
 
 *Keys:*     
-🔶 - main purpose of Marathon
+🔶 - main purpose of Marathon   
 ✔️ - done   
 ⚠️ - task has done, but some planned functions have been discarded   
 🏃️ - work in progress   
+⏲️ - task has been moved to next sprint/marathon because of deadline breaking
 ❌ - task has been rejected because of changed conditions   
 
 ### Marathon I - Budget Core (2021.06.07 - 2021.07.04)
