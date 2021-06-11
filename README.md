@@ -21,7 +21,7 @@ Working process separated into Marathons (1 month) and Sprints (1 week).
 ✔️ - done   
 ⚠️ - task has done, but some planned functions have been discarded   
 🏃️ - work in progress   
-⏲️ - task has been moved to next sprint/marathon because of deadline breaking
+⏲️ - task has been moved to next sprint/marathon because of deadline breaking      
 ❌ - task has been rejected because of changed conditions   
 
 ### Marathon I - Budget Core (2021.06.07 - 2021.07.04)
