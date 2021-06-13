@@ -31,8 +31,8 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 &nbsp;&nbsp;&nbsp;&nbsp;*🔶 Run MVP notebook bot for testing and defining future development*
 
 - ✅ Design general development plan and detailed one for the first sprint 
-- 🏃 Perform first-view rebuild of telegram-finance-bot for future considerations and development
-- Implement simple blocknote functionality (possibility to write notes which will be saved in db)
+- ✅ Perform first-view rebuild of telegram-finance-bot for future considerations and development
+- 🏃 Implement simple blocknote functionality (possibility to write notes which will be saved in db)
 - Build main file structure by refactoring telegram-finance-bot 
 - Configure home first server to host bot with blocknote functionality
 

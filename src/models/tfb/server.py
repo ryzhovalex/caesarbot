@@ -59,7 +59,7 @@ async def today_statistics(message: types.Message):
 
 @dp.message_handler(commands=['month'])
 async def month_statistics(message: types.Message):
-    """Отправляет статистику трат текущего месяца"""
+    """Отправляет статистику трат текущего месяmiddlewares"""
     answer_message = expenses.get_month_statistics()
     await message.answer(answer_message)
 
