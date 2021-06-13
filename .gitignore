@@ -1,3 +1,6 @@
+# ignore vscode files
+.vscode/*
+
 # ignore env vars export script
 export-env-vars.sh
 !templates/export-env-vars.sh
