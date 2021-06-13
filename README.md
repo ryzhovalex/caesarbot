@@ -20,7 +20,7 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 🔶 - main purpose of a sprint   
 🏁 - sprint has finished     
 ⭐ - current sprint      
-✅ - task done   
+✔️ - task done   
 ⚠️ - task has done, but some planned functions have been discarded   
 🏃️ - work on task is in progress   
 ⏲️ - task has been moved to next sprint because of deadline breaking      
@@ -44,8 +44,8 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;*🔶 Run MVP notebook bot for testing and defining future development*
 
-- ✅ Design general development plan and detailed one for the first sprint 
-- ✅ Perform first-view rebuild of telegram-finance-bot for future considerations and development
+- ✔️ Design general development plan and detailed one for the first sprint 
+- ✔️ Perform first-view rebuild of telegram-finance-bot for future considerations and development
 - ⏲️ Implement simple blocknote functionality (possibility to write notes which will be saved in db)
 
 ---
