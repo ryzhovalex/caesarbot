@@ -26,23 +26,27 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 ⏲️ - task has been moved to next sprint because of deadline breaking      
 ❌ - task has been rejected because of changed conditions   
 
-### ⭐ Sprint 1 - Minimal deploy (2021.06.07 - 2021.06.13)
+---
+
+### ⭐ Sprint 2 - Finance-bot Refactoring (2021.06.14 - 2021.06.20)
+
+&nbsp;&nbsp;&nbsp;&nbsp;*🔶 Refine telegram-finance-bot to my code style and english language*
+
+- Implement sqlalchemy functionality with alembic migrations
+- Implement simple notebook functionality (possibility to write notes which will be saved in db)
+- Build main file structure by refactoring telegram-finance-bot 
+- Configure home first server to host bot with notebook functionality
+- Refactor, translate to english and polish telegram-finance-bot
+- Define general instances and their dependencies of budget module and adjust telegram-finance-bot to this structure
+- Deploy minimal-valuable-product (same refactored functions of telegram-finance-bot) to notebook server for permanent testing
+
+### 🏁 Sprint 1 - Minimal deploy (2021.06.07 - 2021.06.13)
 
 &nbsp;&nbsp;&nbsp;&nbsp;*🔶 Run MVP notebook bot for testing and defining future development*
 
 - ✅ Design general development plan and detailed one for the first sprint 
 - ✅ Perform first-view rebuild of telegram-finance-bot for future considerations and development
-- 🏃 Implement simple blocknote functionality (possibility to write notes which will be saved in db)
-- Build main file structure by refactoring telegram-finance-bot 
-- Configure home first server to host bot with blocknote functionality
-
-### Sprint 2 - Finance-bot Refactoring (2021.06.14 - 2021.06.20)
-
-&nbsp;&nbsp;&nbsp;&nbsp;*🔶 Refine telegram-finance-bot to my code style and english language*
-
-- Refactor, translate to english and polish telegram-finance-bot
-- Define general instances and their dependencies of budget module and adjust telegram-finance-bot to this structure
-- Deploy minimal-valuable-product (same refactored functions of telegram-finance-bot) to notebook server for permanent testing
+- ⏲️ Implement simple blocknote functionality (possibility to write notes which will be saved in db)
 
 ---
 
