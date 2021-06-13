@@ -37,7 +37,7 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 - Build main file structure by refactoring telegram-finance-bot 
 - Configure home first server to host bot with notebook functionality
 - Refactor, translate to english and polish telegram-finance-bot
-- Deploy minimal-valuable-product (same refactored functions of telegram-finance-bot) to notebook server for permanent testing
+- Deploy minimal-valuable-product (same refactored functions of telegram-finance-bot) to home server for permanent testing
 
 ### 🏁 Sprint 1 - Minimal deploy (2021.06.07 - 2021.06.13)
 
