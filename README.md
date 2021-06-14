@@ -32,11 +32,11 @@ Working process separated into Sprints (1 week), each with tasks and end-goal.
 
 &nbsp;&nbsp;&nbsp;&nbsp;*🔶 Refine telegram-finance-bot to my code style and english language*
 
-- 🏃 Implement sqlalchemy functionality with alembic migrations
-- Implement simple notebook functionality (possibility to write notes which will be saved in db)
-- Build main file structure by refactoring telegram-finance-bot 
+- ⚠️ Implement sqlalchemy functionality with alembic migrations
+- ✔️ Implement simple notebook functionality (possibility to write notes which will be saved in db)
+- 🏃 Build Flask app on Bot' backend and implement RESTful dialog between aiogram and Flask
+- 🏃 Refactor, translate to english and polish telegram-finance-bot
 - Configure home first server to host bot with notebook functionality
-- Refactor, translate to english and polish telegram-finance-bot
 - Deploy minimal-valuable-product (same refactored functions of telegram-finance-bot) to home server for permanent testing
 
 ### 🏁 Sprint 1 - Minimal deploy (2021.06.07 - 2021.06.13)

@@ -1,9 +1,13 @@
+# ignore alembic files
+alembic/
+alembic.ini
+
 # ignore vscode files
 .vscode/*
 
 # ignore env vars export script
 export-env-vars.sh
-!templates/export-env-vars.sh
+!scripts/export-env-vars.sh
 
 # ignore dbs
 *.db

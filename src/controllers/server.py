@@ -6,17 +6,25 @@ import os
 from aiogram import Bot, Dispatcher, executor, types
 
 from ..models.middlewares import AccessMiddleware
-from ..models import notebook
+from ..models import notebook, orm
 
+
+NOTE_OPERATOR = "*" # operator used to recognize notes
 
 API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 ACCESS_ID = os.getenv("TELEGRAM_ACCESS_ID")
 
-NOTE_OPERATOR = "&" # operator used to recognize notes
-
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 dp.middleware.setup(AccessMiddleware(ACCESS_ID))
+
+
+def run():
+	executor.start_polling(dp, skip_updates=True)
+
+
+def init_db():
+	orm.init_db()
 
 
 @dp.message_handler(commands=['start', 'help'])
@@ -28,8 +36,10 @@ async def send_welcome(message: types.Message):
 @dp.message_handler()
 async def handle_message(message: types.Message):
 	""" Handle message with delegating further operations to appropriate instance """
-	if message[0] == NOTE_OPERATOR:
-		add_note(message)
+	if message.text[0] == NOTE_OPERATOR:
+		await add_note(message)
+	else:
+		await message.answer("Not recognized command!")
 
 
 async def add_note(message: types.Message):
@@ -38,5 +48,3 @@ async def add_note(message: types.Message):
 	await message.answer("Note added.")
 
 
-if __name__ == '__main__':
-	executor.start_polling(dp, skip_updates=True)
