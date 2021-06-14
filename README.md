@@ -14,7 +14,7 @@ Telegram bot who can do a lot of things, such as:
 
 ## Roadmap
 
-Working process separated into Sprints (1 week), each with certain end-goal and purpose.
+Working process separated into Sprints (1 week), each with tasks and end-goal.
 
 *Keys:*     
 🔶 - main purpose of a sprint   
@@ -32,7 +32,7 @@ Working process separated into Sprints (1 week), each with certain end-goal and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;*🔶 Refine telegram-finance-bot to my code style and english language*
 
-- Implement sqlalchemy functionality with alembic migrations
+- 🏃 Implement sqlalchemy functionality with alembic migrations
 - Implement simple notebook functionality (possibility to write notes which will be saved in db)
 - Build main file structure by refactoring telegram-finance-bot 
 - Configure home first server to host bot with notebook functionality
