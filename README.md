@@ -17,5 +17,3 @@ Telegram bot who can do a lot of things, such as:
 1. [telegram-finance-bot](https://github.com/alexey-goloburdin/telegram-finance-bot) | prototype of the budget core and a server controller reference
 
 2. [aiogram-docs](https://docs.aiogram.dev/en/latest/) | telegram bots API documentation source
-
-

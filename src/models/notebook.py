@@ -20,8 +20,9 @@ def _get_now_datetime() -> datetime.datetime:
 	return now
 
 
-def _get_now_formatted() -> str:
-	""" Return date as string """
-	return _get_now_datetime().strftime("%Y-%m-%d %H:%M:%S")
+# def _get_now_formatted() -> str:
+# 	""" Return date as string """
+# 	return _get_now_datetime().strftime("%Y-%m-%d %H:%M:%S")
+
 
 
