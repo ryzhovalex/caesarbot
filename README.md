@@ -1,6 +1,8 @@
 CaesarBot
 ===
 
+DEPRECATED: This project has migrated to private repository.
+
 Telegram bot who can do a lot of things, such as:
 
 - 💸 budget controlling and analyzing
